@@ -32,7 +32,7 @@ class WellcomPage extends StatelessWidget {
                       // height: ,
                       // color: Colors.blueAccent,
                       child: Text(
-                          "Debutez vos journée avec pleines d'energie Cours intense de yoga ",
+                          "Debutez vos journées avec pleines d'energie Cours intense de yoga ",
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               color: Colors.grey,
