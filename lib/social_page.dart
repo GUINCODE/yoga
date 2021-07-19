@@ -2,6 +2,7 @@ import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:yoga/delayed_animation.dart';
+import 'package:yoga/login_page.dart';
 import 'package:yoga/main.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -24,9 +25,6 @@ class SocialPage extends StatelessWidget {
             Navigator.pop(context);
           },
         ),
-
-        // backgroundColor: Color(d_red),
-        centerTitle: true,
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -77,7 +75,13 @@ class SocialPage extends StatelessWidget {
                                   shape: StadiumBorder(),
                                   padding: const EdgeInsets.all(16),
                                 ),
-                                onPressed: () {},
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => LoginPage(),
+                                      ));
+                                },
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
@@ -104,7 +108,13 @@ class SocialPage extends StatelessWidget {
                                   shape: StadiumBorder(),
                                   padding: const EdgeInsets.all(16),
                                 ),
-                                onPressed: () {},
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => LoginPage(),
+                                      ));
+                                },
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
@@ -126,7 +136,13 @@ class SocialPage extends StatelessWidget {
                                   shape: StadiumBorder(),
                                   padding: const EdgeInsets.all(16),
                                 ),
-                                onPressed: () {},
+                                onPressed: () {
+                                  Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => LoginPage(),
+                                      ));
+                                },
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
