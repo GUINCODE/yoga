@@ -166,7 +166,7 @@ class SocialPage extends StatelessWidget {
                             ],
                           ),
                         ),
-                        delay: 1500,
+                        delay: 1200,
                       )
                     ],
                   ),

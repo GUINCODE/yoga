@@ -101,11 +101,13 @@ class _LoginFormState extends State<LoginForm> {
                 height: 1.0,
               ),
               decoration: InputDecoration(
-                  labelStyle: TextStyle(
-                    color: Colors.grey[400],
-                    fontSize: 20,
-                  ),
-                  labelText: "Email"),
+                labelStyle: TextStyle(
+                  color: Colors.grey[400],
+                  fontSize: 20,
+                ),
+                labelText: "Email",
+                prefixIcon: Icon(Icons.mail),
+              ),
             ),
           ),
           SizedBox(
@@ -138,6 +140,7 @@ class _LoginFormState extends State<LoginForm> {
                     });
                   },
                 ),
+                prefixIcon: Icon(Icons.lock),
               ),
             ),
           ),
