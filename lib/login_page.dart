@@ -130,7 +130,7 @@ class _LoginFormState extends State<LoginForm> {
                 suffixIcon: IconButton(
                   icon: Icon(
                     _obscureText ? Icons.visibility : Icons.visibility_off,
-                    color: _obscureText ? Colors.black : Colors.red,
+                    color: _obscureText ? Colors.black : d_red,
                   ),
                   onPressed: () {
                     setState(() {
